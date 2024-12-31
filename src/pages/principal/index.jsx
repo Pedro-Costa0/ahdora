@@ -25,7 +25,7 @@ export default function principal() {
             </div>
 
             <div className="banner">
-                <img className="banner-ahdora" src="/assets/images/Logo-colorido.jpg" alt="" />
+                <img className="banner-ahdora" src="/assets/images/colorido.png" alt="" />
             </div>
         </section>
       </div>
