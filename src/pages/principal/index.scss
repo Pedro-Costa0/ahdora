@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #c4e1d3, #d9d9d9);
+  background-attachment: fixed;
+}
+
+.home{
+    display: flex; 
+    margin-top: 120px; 
+    // justify-content: center;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 150px;
+    margin-right: 200px;
+  
+}
+
+.cta .titulo{
+    font-size: 120px;
+    color: #73ACA3;
+}
+
+.cta .descricao{
+    font-size: 30px;
+    color: #73ACA3;
+    font-weight: 500;
+}
+
+.cta .descricao span{
+    font-size: 60px;
+}
+
+.banner-ahdora{
+    width: 482px;
+    height: 386px;
+    border-radius: 72px 0 72px 0;
+}

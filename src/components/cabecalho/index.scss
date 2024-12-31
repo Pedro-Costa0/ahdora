@@ -1,0 +1,44 @@
+.container-cabecalho{
+    background-color: #E6F1EB;
+    opacity: 74%;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    // position: fixed;
+
+    border-radius: 70px;
+}
+
+.container-logo{
+    height: 80px;
+    padding-left: 50px;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    gap: 67px;
+    padding-right: 80px;
+}
+
+.lista-item a{
+    text-decoration: none;
+    color: #73ACA3;
+    font-weight: 900;
+
+    background-color: #C4E1D3;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.lista-item a:hover{
+    background-color: #73ACA3;
+    color: #C4E1D3;
+    box-shadow: 1px 1px 3px  #000000;
+}
