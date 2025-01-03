@@ -2,7 +2,7 @@
     // display: flex;
     position: fixed;
     padding-left: 1380px;
-    padding-top: 50px;
+    padding-top: 150px;
     
 
 }
@@ -13,5 +13,18 @@
     flex-direction: column;
     list-style: none;
     gap: 20px;
+}
+
+.redes{
+    height: 31px;
+
+    transition-property: height;
+    transition-duration: 0.2s;
+}
+
+.redes:hover{
+    height: 40px;
+    // box-shadow: 1px 1px 1px 0px #000;
+
 }
 

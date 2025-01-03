@@ -8,42 +8,67 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #c4e1d3, #d9d9d9);
+  background-image: linear-gradient(to right, #c4e1d3, #d9d9d900 90%);
   background-attachment: fixed;
 }
 
-.home{
-    display: flex; 
-    margin-top: 120px; 
-    // justify-content: center;
+.home {
+  display: flex;
+  margin-top: 80px;
+  // justify-content: center;
 }
 
-.cta{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-left: 150px;
-    margin-right: 200px;
-  
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 150px;
+  margin-right: 200px;
 }
 
-.cta .titulo{
-    font-size: 120px;
-    color: #73ACA3;
+.cta .titulo {
+  font-size: 120px;
+  color: #73aca3;
 }
 
-.cta .descricao{
-    font-size: 30px;
-    color: #73ACA3;
-    font-weight: 500;
+.cta .descricao {
+  font-size: 28px;
+  color: #73aca3;
+  font-weight: 400;
 }
 
-.cta .descricao span{
-    font-size: 60px;
+.cta .descricao span {
+  font-size: 60px;
 }
 
-.banner-ahdora{
-    width: 482px;
-    // height: 386px;
-    border-radius: 72px 0 72px 0;
+.banner-ahdora {
+  width: 482px;
+  // height: 386px;
+  border-radius: 72px 0 72px 0;
+}
+
+.cta-button {
+  display: flex;
+  padding: 25px 0 0 0;
+}
+
+.btn-default {
+  text-decoration: none;
+  color: #73aca3;
+  font-weight: 900;
+  font-size: 20px;
+
+  background-color: #a4d3bd;
+  padding: 25px 75px 25px 75px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+.cta-button a:hover {
+  background-color: #73aca3;
+  color: #c4e1d3;
+  box-shadow: 1px 1px 3px #000000;
 }
