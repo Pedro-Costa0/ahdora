@@ -72,3 +72,39 @@ body {
   color: #c4e1d3;
   box-shadow: 1px 1px 3px #000000;
 }
+
+.card-h1{
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  margin-top: 35px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.card{
+  background-color: #a4d3bd;
+  color: #73ACA3;
+
+  margin: 40px;
+  padding: 70px;
+  border-radius: 37px;
+  text-align: center;
+
+
+  img{
+    height: 100px;
+  }
+
+  .card-subtt{
+    font-size: 13px;
+    font-weight: 400;
+    // padding: -55px;
+  }
+}
+
+

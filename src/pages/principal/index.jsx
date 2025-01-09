@@ -35,40 +35,62 @@ export default function principal() {
         </section>
 
         <section className="profissionais">
+
+          <h1 className="card-h1">Profissionais</h1>
+
           <div className="cards">
-            <div className="card-um">
-              <h2 className="card-titulo"></h2>
-              <h3 className="card-subtt"></h3>
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Dora</h2>
+              <h3 className="card-subtt">Podologia</h3>
             </div>
 
-            <div className="card-dois">
-              <h2 className="card-titulo"></h2>
-              <h3 className="card-subtt"></h3>
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Maria</h2>
+              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's s</h3>
             </div>
 
-            <div className="card-tres">
-              <h2 className="card-titulo"></h2>
-              <h3 className="card-subtt"></h3>
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Lucilene</h2>
+              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's s</h3>
             </div>
 
-            <div className="card-quatro">
-              <h2 className="card-titulo"></h2>
-              <h3 className="card-subtt"></h3>
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Luiz</h2>
+              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
             </div>
 
-            <div className="card-cinco">
-              <h2 className="card-titulo"></h2>
-              <h3 className="card-subtt"></h3>
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Elaine</h2>
+              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's..</h3>
             </div>
 
-            <div className="card-seis">
-              <h2 className="card-titulo"></h2>
-              <h3 className="card-subtt"></h3>
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Edgar</h2>
+              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
             </div>
 
-            <div className="card-sete">
-              <h2 className="card-titulo"></h2>
-              <h3 className="card-subtt"></h3>
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Celina</h2>
+              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
+            </div>
+
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Cida</h2>
+              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
+            </div>
+
+            <div className="card">
+              <img src="assets/images/userverde.png" alt="" />
+              <h2 className="card-titulo">Michele</h2>
+              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
             </div>
           </div>
         </section>
