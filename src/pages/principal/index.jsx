@@ -1,5 +1,6 @@
 import Cabecalho from "../../components/cabecalho";
 import Redes from "../../components/redes";
+import Carrosel from "./carrossel";
 import "./index.scss";
 
 export default function principal() {
@@ -35,64 +36,18 @@ export default function principal() {
         </section>
 
         <section className="profissionais">
-
           <h1 className="card-h1">Profissionais</h1>
+          <Carrosel/>
+        </section>
 
-          <div className="cards">
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Dora</h2>
-              <h3 className="card-subtt">Podologia</h3>
-            </div>
+        <section className="local">
 
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Maria</h2>
-              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's s</h3>
-            </div>
+          <h1 className="local-h1"><span>Nossa</span> Localização</h1>
 
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Lucilene</h2>
-              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's s</h3>
-            </div>
-
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Luiz</h2>
-              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
-            </div>
-
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Elaine</h2>
-              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's..</h3>
-            </div>
-
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Edgar</h2>
-              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
-            </div>
-
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Celina</h2>
-              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
-            </div>
-
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Cida</h2>
-              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
-            </div>
-
-            <div className="card">
-              <img src="assets/images/userverde.png" alt="" />
-              <h2 className="card-titulo">Michele</h2>
-              <h3 className="card-subtt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</h3>
-            </div>
+          <div className="mapBox">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.2277747683726!2d-46.69767091042849!3d-23.714868550958457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f23b012aaf5%3A0xd2129d0837de6e04!2sEspa%C3%A7o%20Ahdora%20-%20Beleza%2C%20Sa%C3%BAde%20e%20Bem-Estar!5e0!3m2!1spt-BR!2sbr!4v1736914900161!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
+
         </section>
       </div>
     </>
