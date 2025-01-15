@@ -49,6 +49,10 @@ export default function principal() {
           </div>
 
         </section>
+
+        <sectio className="avalie">
+          
+        </sectio>
       </div>
     </>
   );

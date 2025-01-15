@@ -6,7 +6,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    // position: fixed;
+    position: sticky;
+    top: 10px;
+    z-index: 2;
 
     border-radius: 70px;
 }

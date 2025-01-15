@@ -10,13 +10,13 @@ export default function Cabecalho() {
 
         <ul className="lista">
           <li className="lista-item">
-            <a href="#local">Localização</a>
+            <a href="#local">Quem Somos</a>
           </li>
           <li className="lista-item">
-            <a href="#avaliar">Nos avalie</a>
+            <a href="#avaliar">Localização</a>
           </li>
           <li className="lista-item">
-            <a href="#QS">Quem Somos</a>
+            <a href="#QS">Nos Avalie</a>
           </li>
           <li className="lista-item">
             <a href="#contato">Contato</a>

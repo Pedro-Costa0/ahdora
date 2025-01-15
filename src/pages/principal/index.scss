@@ -85,17 +85,13 @@ body {
   color: #73aca3;
 }
 
-// .container-card{
-//   display: flex;
-//   flex-direction: row;
-//   gap: 40px;
-// }
 
 .inner {
   display: flex;
   // justify-content: center;
   align-items: center;
   height: 50vh;
+  z-index: 3;
 }
 
 .item {
