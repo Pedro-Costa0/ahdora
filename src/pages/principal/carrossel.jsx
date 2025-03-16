@@ -27,7 +27,7 @@ export default function Carrosel() {
     {
       name: "Lucilene",
       img: "assets/images/userverde.png",
-      review: "Podologia",
+      review: "Manicure",
     },
     {
       name: "Luis",

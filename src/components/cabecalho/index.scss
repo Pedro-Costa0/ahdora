@@ -44,3 +44,29 @@
     color: #C4E1D3;
     box-shadow: 1px 1px 3px  #000000;
 }
+
+@media screen and (max-width: 1170px){
+    .lista{
+        display: none;
+    }
+    .container-cabecalho{
+        display: flex;
+        justify-content: center;
+    }
+    .container-logo{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    .lista{
+        display: none;
+    }
+    .container-cabecalho{
+        display: flex;
+        justify-content: center;
+        margin-right: 180px;
+    }
+    .container-logo{
+        margin-right: 50px;
+    }
+}
