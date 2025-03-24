@@ -9,7 +9,7 @@ export default function principal() {
       <Cabecalho />
       <Redes />
       <div className="container">
-        <section className="home">
+        <section id="QS" className="home">
           <div className="cta">
             <h1 className="titulo">Ahdora</h1>
 
@@ -35,12 +35,12 @@ export default function principal() {
           </div>
         </section>
 
-        <section className="profissionais">
+        <section id="local" className="profissionais">
           <h1 className="card-h1">Profissionais</h1>
           <Carrosel />
         </section>
 
-        <section className="local">
+        <section id="avalie" className="local">
           <h1 className="local-h1">
             <span>Nossa</span> Localização
           </h1>
@@ -55,7 +55,7 @@ export default function principal() {
           </div>
         </section>
 
-        <section className="avalie">
+        <section id="contato" className="avalie">
           <h1 className="avalia-h1">Avaliações</h1>
 
           <div className="coments">
