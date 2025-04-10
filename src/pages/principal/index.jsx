@@ -2,6 +2,9 @@ import Cabecalho from "../../components/cabecalho";
 import Redes from "../../components/redes";
 import Carrosel from "./carrossel";
 import "./index.scss";
+import smoothscroll from 'smoothscroll-polyfill';
+
+smoothscroll.polyfill();
 
 export default function principal() {
   return (

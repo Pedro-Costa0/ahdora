@@ -57,16 +57,12 @@
         margin-right: 50px;
     }
 }
-@media screen and (max-width: 600px){
+@media (min-width: 576px) and (max-width: 767px){
     .lista{
         display: none;
     }
     .container-cabecalho{
         display: flex;
         justify-content: center;
-        margin-right: 180px;
-    }
-    .container-logo{
-        margin-right: 50px;
     }
 }

@@ -19,7 +19,7 @@ export default function Cabecalho() {
             <a href="#avalie">Nos Avalie</a>
           </li>
           <li className="lista-item">
-            <a href="#contato">Contato</a>
+            <a href="https://wa.me/5511980432650">Contato</a>
           </li>
         </ul>
       </div>

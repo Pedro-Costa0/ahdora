@@ -47,14 +47,13 @@ body {
   border-radius: 72px 0 72px 0;
 }
 
-@media screen and (max-width: 600px){
+// celulares menores
+@media (min-width: 576px) and (max-width: 767px){
   .banner-ahdora{
     display: none;
   }
 
-  .cta {
-    margin-left: 160px;
-  }
+
 }
 
 @media screen and (max-width: 1170px) {
@@ -293,10 +292,11 @@ body {
   box-shadow: 1px 1px 3px #000000;
 }
 
-@media screen and (max-width: 1170px) {
+@media (min-width: 576px) and (max-width: 767px){
   .coments{
     flex-direction: column;
-
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -320,10 +320,17 @@ body {
   
 }
 
+@media (min-width: 576px) and (max-width: 767px){
+  .logoR{
+    width: 150px;
+    margin-left: 100px;
+  }
+}
+
 
 // navegação
 
-html{
-  scroll-behavior: smooth;
-  // scroll-padding-bottom: 90px;
-}
+// html{
+//   scroll-behavior: smooth;
+//   // scroll-padding-bottom: 90px;
+// }
