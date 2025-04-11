@@ -48,13 +48,21 @@ body {
 }
 
 // celulares menores
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767.98px){
   .banner-ahdora{
     display: none;
   }
-
-
 }
+
+// celulares e alguns tablets
+@media (min-width: 768px) and (max-width: 991.98px){
+  .banner-ahdora{
+    display: none;
+  }
+}
+
+// tablets
+
 
 @media screen and (max-width: 1170px) {
   .banner-ahdora{
@@ -191,8 +199,8 @@ body {
 }
 
 .mapBox{
-  width: 750px;
-  height: 550px;
+  width: 1050px;
+  height: 520px;
   background-color: white;
 }
 
@@ -205,6 +213,21 @@ body {
   .mapBox{
     width: 450px;
     height: 350px;
+  }
+}
+
+// celulares e alguns tablets
+@media (min-width: 768px) and (max-width: 991.98px){
+  .mapBox{
+    width: 650px;
+  }
+}
+
+// tablets
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .mapBox{
+    width: 680px;
+    height: 420px;
   }
 }
 
@@ -292,11 +315,41 @@ body {
   box-shadow: 1px 1px 3px #000000;
 }
 
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767.98px){
   .coments{
     flex-direction: column;
     display: flex;
     align-items: center;
+  }
+
+  .box{
+    margin: 10px;
+  }
+}
+
+// celulares e alguns tablets
+@media (min-width: 768px) and (max-width: 991.98px){
+  .coments{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+  .box{
+    margin: 10px;
+  }
+}
+
+// tablets
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .coments{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+  .box{
+    margin: 10px;
   }
 }
 
@@ -320,12 +373,30 @@ body {
   
 }
 
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767.98px){
   .logoR{
     width: 150px;
-    margin-left: 100px;
+    margin-left: 50px;
   }
 }
+
+// celulares e alguns tablets
+@media (min-width: 768px) and (max-width: 991.98px){
+  .logoR{
+    width: 180px;
+    margin-left: 45px;
+  }
+}
+
+// tablets
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .logoR{
+    width: 180px;
+    margin-left: 45px;
+  }
+}
+
+
 
 
 // navegação

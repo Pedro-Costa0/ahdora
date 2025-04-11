@@ -2,7 +2,7 @@ import Cabecalho from "../../components/cabecalho";
 import Redes from "../../components/redes";
 import Carrosel from "./carrossel";
 import "./index.scss";
-import smoothscroll from 'smoothscroll-polyfill';
+import smoothscroll from "smoothscroll-polyfill";
 
 smoothscroll.polyfill();
 
@@ -17,13 +17,16 @@ export default function principal() {
             <h1 className="titulo">Ahdora</h1>
 
             <p className="descricao">
-              <span>N</span>osso espaço promove bem-estar <br /> e satisfação
+              <span>N</span>osso espaço promove<br /> bem-estar e satisfação
               através de <br /> procedimentos Estéticos e <br />
               Terapêuticos personalizados.
             </p>
 
             <div className="cta-button">
-              <a href="" className="btn-default">
+              <a
+                href="https://www.instagram.com/espacoahdora/"
+                className="btn-default"
+              >
                 Saiba Mais
               </a>
             </div>
@@ -75,39 +78,44 @@ export default function principal() {
             </div>
 
             <div className="box">
-              <h2 className="box-h2">Rodrigo Canuto</h2>
+              <h2 className="box-h2">Rhuama Leite</h2>
               <img className="star" src="/assets/images/estrelas.png" alt="" />
 
               <p className="box-p">
-                Show de bola, tanto a Dora como o atendimento e o serviço feito
-                por ela, obrigado por toda a atenção
+                Grandes profissionais, tanto na área de podologia como
+                estética!! Me sinto tão a vontade e super indico. O resultado do
+                trabalho dá ótimos frutos, porque vocês semeiam com dedicação e
+                muita motivação.
               </p>
             </div>
             <div className="box">
-              <h2 className="box-h2">Samir Murilo</h2>
+              <h2 className="box-h2">Jennifer Nascimento</h2>
               <img className="star" src="/assets/images/estrelas.png" alt="" />
 
               <p className="box-p">
-                Milagre! Praticamente salvou a minha vida e a do meu dedo.
-                Nenhum outro podólogo ou cirurgião chegou perto do trabalho
-                feito na minha unha. Super recomendo.
+                Lugar limpo e organizado, um ótimo atendimento desde a recepção.
+                Fui atendida pela depiladora que foi super gente boa,
+                atenciosa, simpática e paciente. Super recomendo.
               </p>
             </div>
           </div>
 
           <div className="bt-avaliar">
-            <a href="https://www.google.com/search?client=opera-gx&sca_esv=9e7358a0bf207c7d&authuser=1&sxsrf=AHTn8zoYAHE0kZi6PJgd9k2P7ZheiZHiRQ:1742082442015&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzVyn2FsFySwZ8Yn9qJO4lekqZGPoDjrRItf3_5uxRY5jTKYMtzirem6Z5kS4hQ5FlN3H6h8ANVeBg9vpZkknUN1Ek5XU4c6UMwhxve19Kwiv6lKKcbYws2W-odPzeY2FPew3Ecns635uuFd-w11OjSo3N5_B&q=Espa%C3%A7o+Ahdora+-+Beleza,+Sa%C3%BAde+e+Bem-Estar+Coment%C3%A1rios&sa=X&ved=2ahUKEwi6voDpoo2MAxVgrJUCHeFeBdMQ0bkNegQIKBAE&biw=1493&bih=794&dpr=1#" className="avaliar">Avaliar</a>
+            <a
+              href="https://www.google.com/search?client=opera-gx&sca_esv=9e7358a0bf207c7d&authuser=1&sxsrf=AHTn8zoYAHE0kZi6PJgd9k2P7ZheiZHiRQ:1742082442015&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzVyn2FsFySwZ8Yn9qJO4lekqZGPoDjrRItf3_5uxRY5jTKYMtzirem6Z5kS4hQ5FlN3H6h8ANVeBg9vpZkknUN1Ek5XU4c6UMwhxve19Kwiv6lKKcbYws2W-odPzeY2FPew3Ecns635uuFd-w11OjSo3N5_B&q=Espa%C3%A7o+Ahdora+-+Beleza,+Sa%C3%BAde+e+Bem-Estar+Coment%C3%A1rios&sa=X&ved=2ahUKEwi6voDpoo2MAxVgrJUCHeFeBdMQ0bkNegQIKBAE&biw=1493&bih=794&dpr=1#"
+              className="avaliar"
+            >
+              Avaliar
+            </a>
           </div>
-
         </section>
       </div>
-      
+
       <footer>
         <img src="/assets/images/logoRedondo.png" alt="" className="logoR" />
 
         <img src="/assets/images/wave.svg" alt="" className="wave" />
       </footer>
-
     </>
   );
 }

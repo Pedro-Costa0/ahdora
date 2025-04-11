@@ -7,22 +7,22 @@ export default function Carrosel() {
     {
       name: "Dora",
       img: "assets/images/userverde.png",
-      review: "Podologia",
+      review: "Podólogo(a)",
     },
     {
       name: "Cida",
       img: "assets/images/userverde.png",
-      review: "Podologia",
+      review: "Podólogo(a)",
     },
     {
       name: "Celina",
       img: "assets/images/userverde.png",
-      review: "Podologia",
+      review: "Biomédica",
     },
     {
       name: "Edgar",
       img: "assets/images/userverde.png",
-      review: "Podologia",
+      review: "Psicanalista",
     },
     {
       name: "Lucilene",
@@ -32,17 +32,27 @@ export default function Carrosel() {
     {
       name: "Luis",
       img: "assets/images/userverde.png",
-      review: "Podologia",
+      review: "Massagista",
     },
     {
       name: "Maria",
       img: "assets/images/userverde.png",
-      review: "Podologia",
+      review: "Terapeuta",
     },
     {
       name: "Michele",
       img: "assets/images/userverde.png",
-      review: "Podologia",
+      review: "Psicólogo(a)",
+    },
+    {
+      name: "Marcio",
+      img: "assets/images/userverde.png",
+      review: "Terapeuta",
+    },
+    {
+      name: "Elaine",
+      img: "assets/images/userverde.png",
+      review: "Esteticista",
     },
   ];
 
