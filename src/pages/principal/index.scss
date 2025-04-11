@@ -413,6 +413,10 @@ body {
   transition-duration: 0.1s;
 }
 
+.wave{
+  height: 100%;
+}
+
 .logoR:hover{
   box-shadow: 1px 1px 8px #00000064;
   
@@ -421,6 +425,10 @@ body {
 @media (min-width: 320px) and (max-width: 575.98px){
   .logoR{
     display: none;
+  }
+
+  .wave{
+    height: 100%;
   }
 }
 
