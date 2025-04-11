@@ -47,6 +47,17 @@ body {
   border-radius: 72px 0 72px 0;
 }
 
+@media (min-width: 320px) and (max-width: 575.98px){
+  .banner-ahdora{
+    display: none;
+  }
+
+  .cta{
+    margin-left: 60px;
+  }
+
+}
+
 // celulares menores
 @media (min-width: 576px) and (max-width: 767.98px){
   .banner-ahdora{
@@ -216,6 +227,14 @@ body {
   }
 }
 
+@media (min-width: 320px) and (max-width: 575.98px){
+  .mapBox{
+    width: 280px;
+    height: 200px;
+  }
+}
+
+
 // celulares e alguns tablets
 @media (min-width: 768px) and (max-width: 991.98px){
   .mapBox{
@@ -315,6 +334,30 @@ body {
   box-shadow: 1px 1px 3px #000000;
 }
 
+@media (min-width: 320px) and (max-width: 575.98px){
+  .coments{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+  .box{
+    margin: 10px;
+    // padding: 10px;
+    width: 95%;
+    transition-property: none;
+    transition-duration: none;
+  }
+
+  .box-h2{
+    font-size: 20px;
+  }
+
+  .box-p{
+    font-size: 15px;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px){
   .coments{
     flex-direction: column;
@@ -371,6 +414,13 @@ body {
 .logoR:hover{
   box-shadow: 1px 1px 8px #00000064;
   
+}
+
+@media (min-width: 320px) and (max-width: 575.98px){
+  .logoR{
+    width: 100px;
+    margin-left: 15px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
