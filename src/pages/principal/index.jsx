@@ -57,7 +57,8 @@ export default function principal() {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-            />
+              title="Mapa da localização da empresa"
+            ></iframe>
           </div>
         </section>
 
